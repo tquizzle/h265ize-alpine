@@ -4,7 +4,7 @@ MAINTAINER https://github.com/tquizzle
 LABEL h265ize_version="bleeding edge" architecture="amd64"
 
 RUN apk add --no-cache --update-cache git ffmpeg openssh-client && \
-    npm install FallingSnow/h265ize --global # rm /var/cache/apk/*
+    npm install FallingSnow/h265ize --global 
 
 ENV INPUT=/input
 ENV OUTPUT=/output
