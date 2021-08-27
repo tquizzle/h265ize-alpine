@@ -18,7 +18,7 @@ After the container is up, you can copy files into the `input` directory and the
 docker run -d --init \
   -v /path/to/input:/input \
   -v /path/to/output:/output \
-  tquinnelly/h265ize-alpine -i
+  tquinnelly/h265ize-alpine --watch -m ultrafast
 ```
 #### Volumes
 Above we expose two mount points for this container. You might want more, just add them in conjunction with the post-args below.
