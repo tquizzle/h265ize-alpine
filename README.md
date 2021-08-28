@@ -45,9 +45,10 @@ Above we expose two mount points for this container. You might want more, just a
 * `--video-bitrate` - Sets the video bitrate, set to 0 to use qp instead of a target bitrate
 
 There are more available at the [Official h265ize GitHub page](https://github.com/FallingSnow/h265ize#options).
-
+<hr />
+Don't forget to tip your bartender.
+<hr />
 2021/26/08 - Build Date
-
 <hr />
 Kudos
 

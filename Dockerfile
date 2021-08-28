@@ -1,7 +1,7 @@
 FROM node:lts-alpine3.14
 MAINTAINER https://github.com/tquizzle
 
-LABEL h265ize_version="bleeding edge" architecture="amd64"
+LABEL h265ize_version="bleeding edge" architecture="amd64" maintainer="Travis Quinnelly" maintainer_url="https://github.com/tquizzle/"
 
 RUN apk add --no-cache --update-cache git ffmpeg openssh-client && \
     npm install FallingSnow/h265ize --global 
