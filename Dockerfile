@@ -1,4 +1,4 @@
-FROM node:18.1-alpine3.14
+FROM node:18.3-alpine3.14
 MAINTAINER https://github.com/tquizzle
 
 LABEL h265ize_version="bleeding edge" architecture="amd64" maintainer="Travis Quinnelly" maintainer_url="https://github.com/tquizzle/"
